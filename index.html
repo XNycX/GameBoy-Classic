@@ -8,13 +8,19 @@
     <title>Game Boy Color</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
     <div class="game-boy">
         <div class="pantalla-borde">
             <div class="linea-azul"></div>
             <div class="linea-roja"></div>
             <div class="power"></div>
-                <div class="battery">BATTERY</div>
+            <div class="battery">BATTERY</div>
+            <div class="pantalla" id="btnPantalla">
+                <div class="sc-int">
+                    <div id="image" class="invisible"><img class="imagen" src="img/sonicgif.gif" alt="sonic"></div>
+                </div>
+            </div>
         </div>
         <div class="d-pad">
             <div class="d-y"></div>
@@ -32,15 +38,16 @@
             <div class="start">
                 <div class="selectLetra">SELECT</div>
             </div>
-            
+
             <div class="select">
                 <div class="selectLetra">START</div>
             </div>
-           
+
         </div>
-        
+
     </div>
 
     <script src="/js/main.js"></script>
 </body>
+
 </html>

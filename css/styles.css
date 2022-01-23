@@ -101,8 +101,8 @@ body {
     font-family: cursive;
     font-weight: bolder;
 }
- 
-.d-pad{
+
+.d-pad {
     width: 4em;
     height: 4em;
     background-color: rgb(119, 124, 118);
@@ -111,27 +111,30 @@ body {
     left: 1em;
     border-radius: 5em;
 }
-.d-y{
-width: 1em;
-height: 3em;
-background-color: black;
-position: absolute;
-top:-1em;
-left:2em;
-transform:translate(-50%,50%);
-border-radius:0.3em ;
+
+.d-y {
+    width: 1em;
+    height: 3em;
+    background-color: black;
+    position: absolute;
+    top: -1em;
+    left: 2em;
+    transform: translate(-50%, 50%);
+    border-radius: 0.3em;
 }
-.d-x{
-width: 3em;
-height: 1em;
-background-color: black;
-position: absolute;
-top:1em;
-left:2em;
-transform:translate(-50%,50%);
-border-radius:0.3em ;
+
+.d-x {
+    width: 3em;
+    height: 1em;
+    background-color: black;
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    transform: translate(-50%, 50%);
+    border-radius: 0.3em;
 }
-.botones{
+
+.botones {
     width: 2em;
     height: 4em;
     background-color: rgb(119, 124, 118);
@@ -141,35 +144,39 @@ border-radius:0.3em ;
     transform: rotate(60deg);
     border-radius: 1.5em;
 }
-.b-a{
+
+.b-a {
     width: 1em;
     height: 1em;
-    background-color: rgb(194,76,76);
+    background-color: rgb(194, 76, 76);
     border-radius: 1em;
     position: absolute;
-    top:0.5em;
-    left: 0.5em;  
+    top: 0.5em;
+    left: 0.5em;
 }
-.b-b{
+
+.b-b {
     width: 1em;
     height: 1em;
-    background-color: rgb(194,76,76);
+    background-color: rgb(194, 76, 76);
     border-radius: 1em;
     position: absolute;
     top: 2.2em;
-    left: 0.5em;  
+    left: 0.5em;
 }
-.botones_s{
+
+.botones_s {
     width: 1em;
     height: 0.3em;
     border-radius: 1em;
     background-color: black;
     transform: rotate(-40deg);
     position: absolute;
-    top:23em;
-    left:5.5em;
+    top: 23em;
+    left: 5.5em;
 }
-.select{
+
+.select {
     width: 1em;
     height: 0.3em;
     border-radius: 1em;
@@ -179,16 +186,31 @@ border-radius:0.3em ;
     right: 0em;
     bottom: -1.6em;
     left: 2em;
-    
-  
+
+
 
 }
-.selectLetra{
+
+.selectLetra {
     font-size: 0.3em;
     position: absolute;
     margin-top: 0.9em;
 }
-.letraStart{
-    font-size: 0.3em;}
+
+.letraStart {
+    font-size: 0.3em;
+}
 
 
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: flex;
+}
+
+.imagen {
+    margin-top: 1em;
+    width: 100%;
+}
