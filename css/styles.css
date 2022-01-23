@@ -1,0 +1,194 @@
+body {
+    margin: 0em;
+    padding: 0em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background: rgb(53, 47, 77);
+}
+
+.game-boy {
+    width: 15em;
+    height: 25em;
+    background-color: rgb(143, 140, 140);
+    display: flex;
+    transform: translate(0em, 0em);
+    border-radius: 3%;
+    border-bottom-right-radius: 3em;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.4);
+}
+
+.pantalla-borde {
+    width: 12em;
+    height: 12.5em;
+    background-color: rgb(58, 56, 56);
+    position: absolute;
+    top: 1em;
+    left: 1.5em;
+    border-radius: 5%;
+    border-bottom-right-radius: 2.5em;
+
+}
+
+.linea-azul {
+    width: 11em;
+    height: 0.1em;
+    background-color: blue;
+    margin: 0em auto;
+    margin-top: 0.3em;
+}
+
+.linea-roja {
+    width: 11em;
+    height: 0.07em;
+    background-color: red;
+    margin: 0em auto;
+    margin-top: 0.2em;
+}
+
+.pantalla {
+    width: 8em;
+    height: 10em;
+    background-color: rgb(170, 170, 170);
+    position: absolute;
+    top: 1em;
+    left: 2em;
+
+
+}
+
+.power {
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 0.5em;
+    background-color: rgb(121, 40, 40);
+    position: absolute;
+    top: 5em;
+    left: 0.6em;
+}
+
+.battery {
+    display: flex;
+    justify-content: left;
+    margin-top: 25em;
+    margin-left: 0.8em;
+    font-size: 0.2em;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 14em;
+    margin-right: 3.5em;
+    width: 100%;
+    color: rgb(65, 65, 65);
+}
+
+.nintendo {
+    margin-top: 0.5em;
+    font-weight: bold;
+    font-size: 0.9em;
+
+}
+
+.gb {
+    font-family: cursive;
+    font-weight: bolder;
+}
+ 
+.d-pad{
+    width: 4em;
+    height: 4em;
+    background-color: rgb(119, 124, 118);
+    position: absolute;
+    top: 18.5em;
+    left: 1em;
+    border-radius: 5em;
+}
+.d-y{
+width: 1em;
+height: 3em;
+background-color: black;
+position: absolute;
+top:-1em;
+left:2em;
+transform:translate(-50%,50%);
+border-radius:0.3em ;
+}
+.d-x{
+width: 3em;
+height: 1em;
+background-color: black;
+position: absolute;
+top:1em;
+left:2em;
+transform:translate(-50%,50%);
+border-radius:0.3em ;
+}
+.botones{
+    width: 2em;
+    height: 4em;
+    background-color: rgb(119, 124, 118);
+    position: absolute;
+    top: 17em;
+    right: 3em;
+    transform: rotate(60deg);
+    border-radius: 1.5em;
+}
+.b-a{
+    width: 1em;
+    height: 1em;
+    background-color: rgb(194,76,76);
+    border-radius: 1em;
+    position: absolute;
+    top:0.5em;
+    left: 0.5em;  
+}
+.b-b{
+    width: 1em;
+    height: 1em;
+    background-color: rgb(194,76,76);
+    border-radius: 1em;
+    position: absolute;
+    top: 2.2em;
+    left: 0.5em;  
+}
+.botones_s{
+    width: 1em;
+    height: 0.3em;
+    border-radius: 1em;
+    background-color: black;
+    transform: rotate(-40deg);
+    position: absolute;
+    top:23em;
+    left:5.5em;
+}
+.select{
+    width: 1em;
+    height: 0.3em;
+    border-radius: 1em;
+    background-color: black;
+    transform: rotate(0deg);
+    position: absolute;
+    right: 0em;
+    bottom: -1.6em;
+    left: 2em;
+    
+  
+
+}
+.selectLetra{
+    font-size: 0.3em;
+    position: absolute;
+    margin-top: 0.9em;
+}
+.letraStart{
+    font-size: 0.3em;}
+
+
