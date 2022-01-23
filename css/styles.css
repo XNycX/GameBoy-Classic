@@ -42,16 +42,17 @@ body {
     margin: 0em auto;
     margin-top: 0.3em;
 }
-.textoSuperior{
+
+.textoSuperior {
     color: white;
     position: absolute;
-    margin-left: 15em!important;
+    margin-left: 15em !important;
     font-size: 0.3rem;
     background-color: rgb(58, 56, 56);
     margin-top: -1.3em;
     padding: 1em;
-    
-    
+
+
 }
 
 .linea-roja {
@@ -69,8 +70,7 @@ body {
     position: absolute;
     top: 1em;
     left: 2em;
-
-
+    cursor: pointer;
 }
 
 .power {
@@ -81,6 +81,7 @@ body {
     position: absolute;
     top: 5em;
     left: 0.6em;
+    cursor: pointer;
 }
 
 .battery {
@@ -164,6 +165,7 @@ body {
     position: absolute;
     top: 0.5em;
     left: 0.5em;
+    cursor: pointer;
 }
 
 .letra {
@@ -192,10 +194,11 @@ body {
     position: absolute;
     top: 2.2em;
     left: 0.5em;
+    cursor: pointer;
 }
 
 
-.botones_s {
+.botones_select {
     width: 1em;
     height: 0.3em;
     border-radius: 1em;
@@ -204,6 +207,19 @@ body {
     position: absolute;
     top: 23em;
     left: 5.5em;
+    cursor: pointer;
+}
+
+.botones_start {
+    width: 1em;
+    height: 0.3em;
+    border-radius: 1em;
+    background-color: black;
+    transform: rotate(-40deg);
+    position: absolute;
+    top: 23em;
+    left: 5.5em;
+    cursor: pointer;
 }
 
 .select {
@@ -216,10 +232,8 @@ body {
     right: 0em;
     bottom: -1.6em;
     left: 2em;
-
-
-
 }
+
 
 .letraInferior {
     font-size: 0.3em;
@@ -245,22 +259,39 @@ body {
     width: 100%;
 }
 
-.pantalla:hover:active{
+.pantalla:hover:active {
     background-color: rgb(74, 109, 4);
 
 }
-.select:hover:active{
+
+.select:hover:active {
     transform: translateY(1px);
     background-color: #e41c15;
     background: #e41c15;
     transition: 0.1s
 }
-.boton-a:hover:active,.boton-b:hover:active{
+
+.start:hover:active {
+    transform: translateY(1px);
+    background-color: #e41c15;
+    background: #e41c15;
+    transition: 0.1s
+}
+
+.boton-a:hover:active,
+.boton-b:hover:active {
     transform: translateY(1px);
     background-color: #e41c15;
     background: #e41c15;
     transition: 0.1s;
 }
-.power:hover:active{
+
+.power:hover:active {
     background-color: #e41c15;
+}
+
+.botones_start:hover:active {
+    background-color: #e41c15;
+    background: #e41c15;
+    transition: 0.1s;
 }
