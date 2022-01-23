@@ -155,6 +155,24 @@ body {
     left: 0.5em;
 }
 
+.letra {
+    font-size: small;
+    width: 1em;
+    height: 1em;
+    display: flex;
+    margin-top: 0.6em;
+    margin-left: 2.5em;
+    -webkit-transform: rotate(-90deg);
+}
+
+.b {
+    padding-right: 0.5em;
+}
+
+.a {
+    padding-top: 0.3em;
+}
+
 .b-b {
     width: 1em;
     height: 1em;
@@ -164,6 +182,7 @@ body {
     top: 2.2em;
     left: 0.5em;
 }
+
 
 .botones_s {
     width: 1em;
